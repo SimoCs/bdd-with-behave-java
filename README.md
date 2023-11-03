@@ -7,8 +7,8 @@ BDD with JBehave and Java examples for use in Pluralsight **Behavior Driven Deve
 - **Selenium test driven by a JBehave**
 - **JBehave incorporated into a CI/CD pipeline**
 - **Reading a JBehave Report**
-− **JBehave in Jenkins Pipeline**
-− **TestRail and JBehave**
+- **JBehave in Jenkins Pipeline**
+- **TestRail and JBehave**
 
 # Connect with me
 I am a very curious individual. Learning is my drive in life, and technology is the language I speak!
