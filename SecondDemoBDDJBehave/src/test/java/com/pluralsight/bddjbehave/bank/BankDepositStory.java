@@ -2,18 +2,16 @@ package com.pluralsight.bddjbehave.bank;
 
 import org.jbehave.core.configuration.Configuration;
 import org.jbehave.core.configuration.MostUsefulConfiguration;
-import org.jbehave.core.junit.JUnitStories;
-import org.jbehave.core.steps.InjectableStepsFactory;
-import org.jbehave.core.steps.InstanceStepsFactory;
 import org.jbehave.core.io.LoadFromClasspath;
+import org.jbehave.core.junit.JUnitStories;
 import org.jbehave.core.reporters.Format;
 import org.jbehave.core.reporters.StoryReporterBuilder;
+import org.jbehave.core.steps.InjectableStepsFactory;
+import org.jbehave.core.steps.InstanceStepsFactory;
 
-
-import java.util.Arrays;
 import java.util.List;
 
-public class MyStories extends JUnitStories {
+public class BankDepositStory extends JUnitStories {
 
     @Override
     public Configuration configuration() {
@@ -24,11 +22,11 @@ public class MyStories extends JUnitStories {
 
     @Override
     public InjectableStepsFactory stepsFactory() {
-        return new InstanceStepsFactory(configuration(), new BankSteps());
+        return new InstanceStepsFactory(configuration(), new BankDeposit());
     }
 
     @Override
     public List<String> storyPaths() {
-        return Arrays.asList("stories/bank_account.story");
+        return List.of("stories/bank_deposit_story.story");
     }
 }

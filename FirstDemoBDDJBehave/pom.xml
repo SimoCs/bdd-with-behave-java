@@ -15,6 +15,7 @@
     </properties>
 
     <dependencies>
+
         <!-- JBehave Core -->
         <dependency>
             <groupId>org.jbehave</groupId>
@@ -22,6 +23,7 @@
             <version>5.1.1</version> <!-- Check for latest version -->
             <scope>test</scope>
         </dependency>
+
         <!-- JUnit (to support running JBehave as JUnit) -->
         <dependency>
             <groupId>junit</groupId>
@@ -29,6 +31,7 @@
             <version>4.13.2</version> <!-- Check for latest version -->
             <scope>test</scope>
         </dependency>
+
     </dependencies>
     
 </project>
