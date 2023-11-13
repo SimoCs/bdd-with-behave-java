@@ -5,8 +5,8 @@ BDD with JBehave and Java examples for use in Pluralsight **Behavior Driven Deve
 - [Walkthrough implementing a sample scenario in JBehave](https://github.com/SimoCs/bdd-with-jbehave-java/tree/main/SecondDemoBDDJBehave)
 - [Best story practices in a JBehave story](https://github.com/SimoCs/bdd-with-jbehave-java/tree/main/ThirdDemoBDDJBehave)
 - [Selenium test driven by a JBehave](https://github.com/SimoCs/bdd-with-jbehave-java/tree/main/FourthDemoBDDJBehave)
-- [JBehave incorporated into a CI/CD pipeline](https://github.com/SimoCs/bdd-with-jbehave-java/tree/main/FourthDemoBDDJBehave)
-- [Selenium test driven by a JBehave](https://github.com/SimoCs/bdd-with-jbehave-java/tree/main/FourthDemoBDDJBehave)
+- [JBehave incorporated into a CI/CD pipeline](https://github.com/SimoCs/bdd-with-jbehave-java/tree/main/FifthDemoBDDJBehave)
+- [Selenium test driven by a JBehave](https://github.com/SimoCs/bdd-with-jbehave-java/tree/main/SixthDemoBDDJBehave)
 - [JBehave in Jenkins Pipeline](https://github.com/SimoCs/bdd-with-jbehave-java/tree/main/SeventhDemoBDDJBehave)
 - [TestRail and JBehave](https://github.com/SimoCs/bdd-with-jbehave-java/tree/main/EighthDemoBDDJBehave)
 
